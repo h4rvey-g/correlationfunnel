@@ -4,7 +4,7 @@
 #     bsu_main_color <- "#1f78b4"
 #
 #     # Check Theme: If Dark, Update Colors
-#     if (rstudioapi::isAvailable()) {
+#     if (rstudioapi::isAvailable() && rstudioapi::hasFun("getThemeInfo")) {
 #         tryCatch({
 #             theme <- rstudioapi::getThemeInfo()
 #         })
